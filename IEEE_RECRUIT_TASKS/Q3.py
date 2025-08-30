@@ -7,12 +7,13 @@ print("5x5 matrix")
 print(" ")
 print(matrix)
 
-print("maximum:",np.max(matrix))
-print("minimum:",np.min(matrix))
-print("mean:",np.mean(matrix))
+print("maximum value:",np.max(matrix))
+print("minimum value:",np.min(matrix))
+print("mean value:",np.mean(matrix))
 
 normalised=((matrix-np.min(matrix))/(np.max(matrix)-np.min(matrix)))
 print("\nnormalised matrix\n" ,normalised.round(2) )
 
 flat_sort=np.sort(matrix.flatten())
+
 print("\nflattened and sorted array\n",flat_sort)#using \n sequence to get ouput in other line
