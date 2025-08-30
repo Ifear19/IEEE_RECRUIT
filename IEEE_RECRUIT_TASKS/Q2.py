@@ -16,8 +16,9 @@ if len(words)>100:
 a=0
 for word in words:
     w=word.lower()
-    if w==w[::-1] and len(w)>=1:
+    if w==w[::-1] and len(w)>1: #not considering single letters as palindromes 
         print(word,"is a palindrome")
         a=a+1
 if a==0:
+
     print("no palindrome word in para")
