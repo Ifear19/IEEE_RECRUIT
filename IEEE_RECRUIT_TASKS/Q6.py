@@ -15,4 +15,5 @@ for college,branch,marks in cutoffs:
         college_dict[college]={}
     college_dict[college][branch]=marks
 
-print(json.dumps(college_dict,indent=3))
+
+print(json.dumps(college_dict,indent=3)) #using json to make it look more neat rather than just a output in single line
