@@ -1,6 +1,6 @@
 #Q2 PALINDROME WORDS
 
-print('Enter your paragraph(press enter on a blank line to finish)')
+print('Enter your paragraph(press enter on a blank line to finish,habibi!)')
 lines=[]
 while True: #using the while loop to enter text in multiple lines
     line=input()
@@ -22,5 +22,6 @@ for word in words:
 if a==0:
 
     print("no palindrome word in para")
+
 
 
