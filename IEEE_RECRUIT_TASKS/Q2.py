@@ -20,8 +20,10 @@ for word in words:
         print(word,"is a palindrome")
         a=a+1
 if a==0:
+    print(0)
 
-    print("no palindrome word in para")
+    
+
 
 
 
