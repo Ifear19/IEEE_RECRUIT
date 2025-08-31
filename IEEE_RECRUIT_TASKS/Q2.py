@@ -4,7 +4,7 @@ print('Enter your paragraph(press enter on a blank line to finish,habibi!)')
 lines=[]
 while True: #using the while loop to enter text in multiple lines
     line=input()
-    if line=="":
+    if line=="":  #it will take input from user until he/she presses enter on a blank line(i.e. when line="")
         break
     lines.append(line)
 paragraph=' '.join(lines)
@@ -23,6 +23,7 @@ if a==0:
     print(0)
 
     
+
 
 
 
