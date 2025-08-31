@@ -7,10 +7,10 @@ while True: #using the while loop to enter text in multiple lines
     if line=="":  #it will take input from user until he/she presses enter on a blank line(i.e. when line="")
         break
     lines.append(line)
-paragraph=' '.join(lines)
+paragraph=' '.join(lines) #will join those different lines with spaces
 print('your entered text is ',paragraph)
 print("\n")
-words=paragraph.split()
+words=paragraph.split() #at default it will split at blank spaces
 if len(words)>100:
     print("Pls check the word limit")
 a=0
@@ -23,6 +23,7 @@ if a==0:
     print(0)
 
     
+
 
 
 
