@@ -8,7 +8,7 @@ while True: #using the while loop to enter text in multiple lines
         break
     lines.append(line)
 paragraph=' '.join(lines)
-print('your paragraph is ',paragraph)
+print('your entered text is ',paragraph)
 print("\n")
 words=paragraph.split()
 if len(words)>100:
@@ -22,6 +22,7 @@ for word in words:
 if a==0:
 
     print("no palindrome word in para")
+
 
 
 
